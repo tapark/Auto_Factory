@@ -7,8 +7,8 @@ plugins {
     id("kotlin-parcelize")
 
     // Add the Google services Gradle plugin
-    id("com.google.gms.google-services")
-    id("com.google.firebase.crashlytics")
+//    id("com.google.gms.google-services")
+//    id("com.google.firebase.crashlytics")
 }
 
 android {
@@ -124,10 +124,10 @@ dependencies {
     implementation("com.github.bumptech.glide:glide:4.15.1")
     annotationProcessor("com.github.bumptech.glide:compiler:4.15.1")
     //firebase
-    implementation(platform("com.google.firebase:firebase-bom:31.5.0"))
-    implementation("com.google.firebase:firebase-analytics")
-    implementation("com.google.firebase:firebase-crashlytics")
-    implementation("com.google.firebase:firebase-firestore-ktx")
+//    implementation(platform("com.google.firebase:firebase-bom:31.5.0"))
+//    implementation("com.google.firebase:firebase-analytics")
+//    implementation("com.google.firebase:firebase-crashlytics")
+//    implementation("com.google.firebase:firebase-firestore-ktx")
 
     //CameraX
     implementation("androidx.camera:camera-core:1.3.0-alpha06")
@@ -146,9 +146,9 @@ dependencies {
 
 
     // Import the Firebase BoM
-    implementation(platform("com.google.firebase:firebase-bom:33.5.1"))
-    implementation("com.google.firebase:firebase-analytics")
-    implementation("com.google.firebase:firebase-crashlytics")
+//    implementation(platform("com.google.firebase:firebase-bom:33.5.1"))
+//    implementation("com.google.firebase:firebase-analytics")
+//    implementation("com.google.firebase:firebase-crashlytics")
 
     //google adMob
 //    implementation("com.google.android.gms:play-services-ads:23.5.0")
@@ -166,9 +166,9 @@ dependencies {
     implementation("androidx.work:work-rxjava2:2.10.4")
 
     // google sheet
-    implementation ("com.google.api-client:google-api-client:2.0.0")
-    implementation ("com.google.oauth-client:google-oauth-client-jetty:1.34.1")
-    implementation ("com.google.apis:google-api-services-sheets:v4-rev20220927-2.0.0")
+//    implementation ("com.google.api-client:google-api-client:2.0.0")
+//    implementation ("com.google.oauth-client:google-oauth-client-jetty:1.34.1")
+//    implementation ("com.google.apis:google-api-services-sheets:v4-rev20220927-2.0.0")
 
     //kakao
 //    implementation("com.kakao.sdk:v2-all:2.20.6") // 전체 모듈 설치, 2.11.0 버전부터 지원
