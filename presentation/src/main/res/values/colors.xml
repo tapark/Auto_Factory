@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="app_background">#FFFFFFFF</color>
+
+
+    <color name="gray_10">#F5F6F8</color>
+    <color name="gray_20">#E9EBED</color>
+    <color name="gray_30">#DDE1E5</color>
+    <color name="gray_40">#B9BDC5</color>
+    <color name="gray_50">#9FA4A9</color>
+    <color name="gray_60">#73787E</color>
+    <color name="gray_70">#464C52</color>
+    <color name="gray_80">#26282B</color>
+    <color name="gray_90">#1B1D1F</color>
+
+
+</resources>
